@@ -5,3 +5,7 @@ where origin ="Europe";
 keep make model invoice msrp mpg:;
 diff=msrp-invoice;
 run;
+
+proc freq data=europe;
+tables make;
+run;
