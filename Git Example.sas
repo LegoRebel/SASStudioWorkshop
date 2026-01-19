@@ -9,3 +9,9 @@ run;
 proc freq data=europe;
 tables make;
 run;
+
+proc means data=europe;
+class make;
+var invoice;
+run;
+
