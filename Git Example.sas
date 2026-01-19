@@ -15,3 +15,8 @@ class make;
 var invoice;
 run;
 
+proc means data=europe;
+class make;
+var invoice;
+run;
+
